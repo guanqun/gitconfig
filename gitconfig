@@ -1,0 +1,30 @@
+[user]
+    name = guanqun
+    email = guanqun.lu@gmail.com
+[color]
+    ui = auto
+[alias]
+    st = status
+    co = checkout
+    ci = commit -s
+    br = branch
+    spull = svn rebase
+    spush = svn dcommit
+    sfetch = svn fetch
+    df = diff
+    cdf = diff --cached
+    lg = log -p
+    ll = log --graph --decorate --pretty=oneline --abbrev-commit
+    lla = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
+    pick = add -p
+    bl = blame
+    go = rebase --continue
+    skip = rebase --skip
+    tip = log -1
+    wdf = diff --color-words
+    wcdf = diff --color-words --cached
+    wshow = show --color-words
+    amend = commit -s --amend
+[core]
+    gitproxy = /usr/local/bin/git-proxy
