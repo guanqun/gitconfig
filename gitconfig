@@ -1,8 +1,10 @@
 [user]
     name = guanqun
     email = guanqun.lu@gmail.com
+
 [color]
     ui = auto
+
 [alias]
     st = status
     co = checkout
@@ -26,5 +28,7 @@
     wcdf = diff --color-words --cached
     wshow = show --color-words
     amend = commit -s --amend
+    fp = format-patch
+
 [core]
     gitproxy = /usr/local/bin/git-proxy
