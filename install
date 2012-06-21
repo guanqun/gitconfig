@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ -f ~/.gitconfig ]; then
+    if [ "$1" == "--force" ]; then
+        cp -f gitconfig ~/.gitconfig
+        echo "Done!"
+    else
+        echo "Use \"$0 --force\" instead!"
+    fi
+else
+    cp gitconfig ~/.gitconfig
+    echo "Done!"
+fi
