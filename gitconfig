@@ -8,7 +8,7 @@
 [alias]
     st = status
     co = checkout
-    ci = commit -s
+    ci = commit
     br = branch
     spull = svn rebase
     spush = svn dcommit
