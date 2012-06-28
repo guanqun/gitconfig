@@ -30,5 +30,12 @@
     amend = commit -s --amend
     fp = format-patch
 
+[sendemail]
+    # need to invoke the following command on Mac OS X
+    #   sudo -H cpan Net::SMTP::SSL
+    smtpserver = smtp.gmail.com
+    smtpencryption = tls
+    smtpserverport = 587
+
 # [core]
 #    gitproxy = /usr/local/bin/git-proxy
