@@ -27,7 +27,7 @@
     wdf = diff --color-words
     wcdf = diff --color-words --cached
     wshow = show --color-words
-    amend = commit -s --amend
+    amend = commit --amend
     fp = format-patch
 
 [sendemail]
