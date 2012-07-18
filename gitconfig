@@ -29,6 +29,7 @@
     wshow = show --color-words
     amend = commit --amend
     fp = format-patch
+    pop = reset --hard HEAD^
 
 [sendemail]
     # need to invoke the following command on Mac OS X
