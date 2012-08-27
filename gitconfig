@@ -40,3 +40,26 @@
 
 # [core]
 #    gitproxy = /usr/local/bin/git-proxy
+
+[stgit]
+    sender = Lu Guanqun <guanqun.lu@gmail.com>
+    smtpserver = smtp.gmail.com
+    smtpdelay = 3
+    namelength = 80
+
+[stgit "color"]
+    applied = green_foreground
+    current = red_foreground
+    unapplied = white_foreground
+    hidden = cyan_foreground
+
+[stgit "alias"]
+    # Command aliases.
+    add = git add
+    ll = stg series
+    # list applied
+    la = stg series -A
+
+[mail "alias"]
+    # self related emails
+    self = Lu Guanqun <guanqun.lu@gmail.com>
