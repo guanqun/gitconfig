@@ -31,6 +31,9 @@
     fp = format-patch
     pop = reset --hard HEAD^
 
+[diff]
+	algorithm = patience
+
 [sendemail]
     # need to invoke the following command on Mac OS X
     #   sudo -H cpan Net::SMTP::SSL
