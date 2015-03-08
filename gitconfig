@@ -13,9 +13,9 @@
     spull = svn rebase
     spush = svn dcommit
     sfetch = svn fetch
-    df = diff
-    cdf = diff --cached
-    lg = log -p
+    df = diff --no-prefix
+    cdf = diff --cached --no-prefix
+    lg = log -p --no-prefix
     ll = log --graph --decorate --pretty=oneline --abbrev-commit
     lla = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
@@ -30,6 +30,7 @@
     amend = commit --amend
     fp = format-patch
     pop = reset --hard HEAD^
+    cp = cherry-pick
 
 [diff]
 	algorithm = patience
