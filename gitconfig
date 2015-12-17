@@ -28,6 +28,8 @@
     wcdf = diff --color-words --cached
     wshow = show --color-words
     amend = commit --amend
+    amend-now = "!d=\"$(date -R)\" && GIT_COMMITTER_DATE=\"$d\" \
+        git commit --amend --date \"$d\""
     fp = format-patch
     pop = reset --hard HEAD^
     cp = cherry-pick
