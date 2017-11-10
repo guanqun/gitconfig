@@ -1,5 +1,5 @@
 [user]
-    name = Lu Guanqun
+    name = Guanqun Lu
     email = guanqun.lu@gmail.com
 
 [color]
@@ -48,7 +48,7 @@
 #    gitproxy = /usr/local/bin/git-proxy
 
 [stgit]
-    sender = Lu Guanqun <guanqun.lu@gmail.com>
+    sender = Guanqun Lu <guanqun.lu@gmail.com>
     smtpserver = smtp.gmail.com
     smtpdelay = 3
     namelength = 80
@@ -68,4 +68,4 @@
 
 [mail "alias"]
     # self related emails
-    self = Lu Guanqun <guanqun.lu@gmail.com>
+    self = Guanqun Lu <guanqun.lu@gmail.com>
